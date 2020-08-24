@@ -1,11 +1,22 @@
 .button-container {
-  flex: 1 1 auto;
-  text-align: center;
-  margin: 0px 20px;
-  border: var(--button-border);
-  font-size: var(--button-text-size);
+  
+   border: 2px solid white; 
+    /* border-radius: 50%; */
+    margin-left: 65px;
+    margin-bottom: 25px;
+     /* padding: 5px;
+    width: 50px;
+    height: 20px; */
+    text-align: center;
+    font-size: medium; 
+    /* background-color: #2851a4;  */
+    color: blue;
+  
 }
-
-.button-container:hover {
-  cursor: pointer;
+.button-value {
+  display: flex;
+flex-direction: row;
+color:blue;
+font-size: medium;
+text-align: justify;
 }
